@@ -15,7 +15,7 @@ info record;
 ### Make Changes to the Data if Necessary
 We can modify the record data by using the `put` and `remove` function. 
 
-#### To Modify the Value of a Key
+#### To Modify the Value of Keys
 In order to change the value of a key, use the `put` function to assign a new value to the key. 
 For example, if your new record is to be called "{Record Name} - Copy", this is how the script would look like.
 ```javascript
