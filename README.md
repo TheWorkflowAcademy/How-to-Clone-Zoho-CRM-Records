@@ -37,7 +37,7 @@ If you want to exclude certain fields from the cloned record, simply remove the 
 record.remove("Currency");
 ```
 
-#### Create the New "Cloned" Record
+### Create the New "Cloned" Record
 Once you are done modifying the record map, create the new "cloned" record using the `createRecord` Deluge task with the record map.
 ```javascript
 newrecord = zoho.crm.createRecord("CRM_Module_Name", record);
