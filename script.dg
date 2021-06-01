@@ -1,0 +1,15 @@
+// Get the Record Map
+record = zoho.crm.getRecordById("CRM_Module_Name","Record_ID");
+
+// Modify the Values of Keys (if necessary)
+record.put("Name",recordData.get("Name") + " - Copy";
+record.put("Stage","Closed Won");
+record.put("Closing Date",today);
+record.put("Account_Id",{"id","Replacement_Account_ID"});  
+
+// Remove Keys (if necessary)
+record.remove("Currency");
+
+// Create the New Record with the newly modified map
+newrecord = zoho.crm.createRecord("CRM_Module_Name", record);
+info newrecord;
