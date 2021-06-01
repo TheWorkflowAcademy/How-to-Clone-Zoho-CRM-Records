@@ -31,7 +31,7 @@ You can also reassign lookup fields by reassigning the value of the lookup map w
 record.put("Account_Id",{"id","Replacement_Account_ID"});  
 ```
   
-#### To Remove Data
+#### To Remove Fields
 If you want to exclude certain fields from the cloned record, simply remove the key from the record map using the `remove` function.
 ```javascript
 record.remove("Currency");
